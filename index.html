@@ -11,24 +11,26 @@
 <body>
     <h1 class="pt-4 text-center">Whittington Hex Color Converter</h1>
     <div class="mt-5 w-50 mx-auto">
+        
         <label for="color">ARGB Color(hex or integer)</label>
         <div >
             <div class="input-group">
                 <input type="text" class="form-control" id="color">
             </div>
         </div>
+        <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="hex">
+                <label class="form-check-label" for="hex">
+                    This is a Hex value
+                </label>
+            </div>
         <div class="mt-3 w-lg-50 w-sm-100 mx-auto">
             <button type="button" class="mx-auto btn btn-block btn-large btn-outline-success" id="button">Extract Color Channels</button>
         </div>
     </div>
 
-    <div class="mt-5 w-50 mx-auto" >
-        <h3 class="mx-auto text-center mb-3">Color Channels</h3>
-
-        <ul class="list-group-flush" id="output">
-            <li class="list-group-item">Red: </li>
-
-        </ul>
+    <div class="mt-5 w-50 mx-auto" id="output">
+        
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
