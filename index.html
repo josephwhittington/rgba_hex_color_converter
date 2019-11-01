@@ -6,11 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>ARGB Hex-Color Converter</title>
+    <style>
+        #cont, #output {
+            max-width: 500px;
+        }
+    </style>
+
     <link rel="shortcut icon" href="https://i.stack.imgur.com/J9ftI.png" type="image/x-icon">
 </head>
 <body>
     <h1 class="pt-4 text-center">Whittington Hex Color Converter</h1>
-    <div class="mt-5 w-lg-50 w-sm-75 mx-auto px-3">
+    <div class="mt-5  w-sm-75 w-md-75 w-lg-50 mx-auto px-3" id="cont">
         
         <label for="color">ARGB Color(hex or integer)</label>
         <div >
@@ -29,7 +35,7 @@
         </div>
     </div>
 
-    <div class="mt-5 w-50 w-sm-100 mx-auto p-3" id="output">
+    <div class="mt-5  w-sm-100 mx-auto p-3 w-md-50 w-lg-25" id="output">
         
     </div>
 
